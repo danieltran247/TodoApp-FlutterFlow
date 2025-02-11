@@ -74,7 +74,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              'Profile',
+                              'Profile Page',
                               style: FlutterFlowTheme.of(context)
                                   .headlineLarge
                                   .override(
@@ -451,7 +451,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                       iconPadding:
                           const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: FlutterFlowTheme.of(context).primary,
+                      color: const Color(0xFF9D89DC),
                       textStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
                                 fontFamily: 'Inter',
